@@ -1,0 +1,123 @@
+p{
+    display: none;
+}
+input[name='name']:hover+p
+{
+    display: inline;
+    color: rgb(202, 3, 79);
+    background-color: rgb(147, 207, 207);
+}
+input[name='pe']:hover+p{
+    display: inline;
+    color: rgb(202, 3, 79);
+    background-color: rgb(147, 207, 207);
+}
+input[name='se']:hover+p{
+    display: inline;
+    color: rgb(202, 3, 79);
+    background-color: rgb(147, 207, 207);
+}
+input[name='pass']:hover+p{
+    display: inline;
+    color: rgb(202, 3, 79);
+    background-color: rgb(147, 207, 207);
+}
+input[type='radio']:checked
+{
+    width: 15px;
+    height: 15px;
+   
+}
+input[type='radio']:checked+label{
+    color: magenta;
+}
+input[required]
+{
+    border: 1px solid magenta;
+}
+input[name='se']
+{
+    border: 1px solid magenta;
+}
+input[required]:focus
+{
+    background-color: yellow;
+}
+input[name='se']:focus
+{
+    background-color: yellow;
+}
+img{
+    display: none;
+}
+input[name='pe']:valid ~ img.valid
+{
+    display: inline;
+}
+input[name='pe']:invalid ~ img.invalid
+{
+    display: inline;
+}
+form
+{
+    border: 2px solid black;
+    width: 480px;
+}
+body{
+    font-family: cursive;
+}
+input[disabled]
+{
+    border: 1px dotted magenta;
+}
+input[type='number']
+{
+    border: 1px solid magenta;
+    
+}
+input[type='number']:focus
+{
+    background-color: yellow;
+}
+input[id='mode']
+{
+    border: 1px solid magenta;  
+}
+input[id='mode']:focus
+{  
+    background-color: yellow;
+}
+input[type='submit']
+{
+    border: 1px solid magenta;
+}
+input[type='submit']:focus
+{
+    background-color: yellow;
+}
+h1{
+    color:blue;
+    margin: 20px auto;
+}
+*{
+    background-color: rgb(191, 232, 221);
+}
+label{
+    color:orangered;
+}
+.main{
+    margin: 20px auto;
+}
+form{
+    padding:10px;
+    margin: 30px auto;
+}
+.btn
+{
+    color: rgb(245, 7, 189);
+    padding: 3px;
+    border-radius: 5px;
+}
+#id{
+    color:blueviolet
+}

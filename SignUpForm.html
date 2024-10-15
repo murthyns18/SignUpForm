@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="SignUpForm.css">
+</head>
+<body>
+    <center><h1 class="h1">Sign Up Form</h1></center>
+
+    <form action="">
+        <table class="table">
+            <tr>
+                <td><label for="">Name</label></td>
+                <td><input type="text" size="15" name="name" required>
+                    <p>Enter your name</p><br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label for="">College</label></td>
+                <td><input type="text" size="15" name="collge"disabled><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Primary Email</label></td>
+                <td>
+                    <input type="email" size="15" name="pe" required>
+                    <p>Enter your email</p>
+                    <img src="right.webp" alt="" width="15px" height="15px" class="valid">
+                    <img src="warning.webp" alt="" width="15px" height="15px" class="invalid">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Secondary Email</label></td>
+                <td><input type="email" size="15" name="se" >
+                    <p>Enter your email</p><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="pass" required>
+                    <p>Enter your password</p><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td><input type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="others">
+                    <label>Others</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input type="number" name="age" size="3" min="18" max="100"><br></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Mode</label></td>
+                <td><input type="text" value="online" id='mode' readonly ><br></td>
+            </tr>
+
+        </table>
+
+    <input type="submit" class="btn">
+    </form>
+    
+    
+</body>
+</html>
